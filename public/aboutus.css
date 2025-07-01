@@ -1,0 +1,93 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+background-image: url(images2/bg.webp);
+ background-repeat: no-repeat;
+    background-size: 150%; }
+    
+    header {
+  background-color: rgb(131, 168, 131);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  nav {
+  background-color: rgb(207, 220, 187);
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 15px 0;
+  margin-top: 40px;
+}
+nav button
+{
+  color: white;
+ 
+}
+.nav-link:hover {
+  color: inherit !important;
+  text-decoration: underline !important;
+}
+
+.nav-item a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+        font-size: larger;
+
+}
+.navbar-collapse {
+    display: flex;
+    justify-content: center;
+  }
+nav a:hover {
+  text-decoration: underline;
+}
+  
+
+  .navbar nav ul li a.active {
+  background-color: rgb(131, 168, 131);
+    border-radius: 4px;
+  }
+
+  .heading
+  {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 80px;
+        text-shadow: 2px 2px 4px #000;
+            color: white;
+
+
+  }
+.heading1
+{
+padding-top: 60px;
+padding-bottom: 50px;
+text-align: center;
+text-shadow: 2px 2px 4px #000;
+            color: white;
+ }
+  .keyfeatures
+  {
+    height: 500px;
+  }
+  .card-body:hover
+  {
+    cursor: pointer;
+  }
+  
+.card-header{
+  background-color: rgb(131, 168, 131);
+}
+
+div.card-header{
+    background-color: rgb(131, 168, 131);
+    
+
+}
+div.card-body:hover
+{
+background-color:rgb(207, 220, 187);
+  }

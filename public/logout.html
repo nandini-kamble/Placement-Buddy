@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Logout</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding-top: 100px;
+    }
+    .message {
+      font-size: 24px;
+      color: #333;
+    }
+  </style>
+  <script>
+    function logout() {
+      // Clear local/session storage
+      localStorage.clear();
+      sessionStorage.clear();
+
+      // Optionally clear cookies
+      document.cookie = "token=; Max-Age=0; path=/;";
+
+      // Redirect to login or homepage
+      setTimeout(function () {
+        window.location.href = "login.html"; // change as needed
+      }, 2000);
+    }
+
+    window.onload = logout;
+  </script>
+</head>
+<body>
+  <div class="message">
+    You have been logged out. Redirecting to login page...
+  </div>
+</body>
+</html>

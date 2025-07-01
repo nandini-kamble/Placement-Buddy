@@ -1,0 +1,100 @@
+/* Navbar styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+background-image: url(images2/bg.webp);
+ background-repeat: no-repeat;
+    background-size: 150%;   }
+  header {
+  background-color: rgb(131, 168, 131);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  nav {
+  background-color:rgb(207, 220, 187);
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 15px 0;
+  margin-top: 40px;
+}
+nav button
+{
+  color: white;
+ 
+}
+.nav-link:hover {
+  color: inherit !important;
+  text-decoration: underline !important;
+}
+
+.nav-item a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: larger;
+}
+.navbar-collapse {
+    display: flex;
+    justify-content: center;
+  }
+nav a:hover {
+  text-decoration: underline;
+}
+
+
+
+  /* Form styles */
+  .form-container {
+    max-width: 400px;
+    margin: 30px auto;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .form-container h2 {
+    margin-bottom: 1rem;
+  color:rgb(131, 168, 131);
+    text-align: center;
+  }
+  
+  .form-container form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+  
+  .form-container form button {
+    width: 100%;
+    padding: 10px;
+  background-color: rgb(131, 168, 131);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .form-container form button:hover {
+  background-color:rgb(207, 220, 187);
+  }
+  
+  .btn
+{
+align-items: end;
+color: white;
+  text-decoration: none;
+  font-weight: bold;
+        font-size: larger;
+        margin-right: 20px;
+}
+div.form-container:hover
+  {
+      background-color:rgb(207, 220, 187);
+
+  }

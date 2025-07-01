@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+background-image: url(images2/bg.webp);
+ background-repeat: no-repeat;
+    background-size: 150%;  }
+  header {
+  background-color: rgb(131, 168, 131);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  nav {
+  background-color: rgb(207, 220, 187);
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 15px 0;
+  margin-top: 40px;
+}
+nav button
+{
+  color: white;
+ 
+}
+.nav-link:hover {
+  color: inherit !important;
+  text-decoration: underline !important;
+}
+
+.nav-item a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: larger;
+}
+.navbar-collapse {
+    display: flex;
+    justify-content: center;
+  }
+nav a:hover {
+  text-decoration: underline;
+}
+
+
+
+  
+
+    .card-container {
+      display: flex;
+      justify-content: center;
+      gap: 60px;
+      flex-wrap: wrap; /* Optional: wrap on small screens */
+      margin-top: 20px;
+      margin-bottom: 20px;
+      padding: 50px;
+    }
+
+    .card {
+      width: 20rem;
+      height: 85%;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      text-align: center;
+      padding: 50px;
+      margin-top: 10px;
+    }
+
+    .card img {
+      width: 100%; /* Make images fit card width */
+      height: 82%;
+      border-radius: 5px;
+    }
+  
+  
+  
+  
+  
+  .heading
+  {
+    text-align: center;
+     color:rgb(131, 168, 131);
+     margin-top: 20px;
+     margin-bottom: 20px;
+ 
+  }
+
+  div.card:hover{
+background-color:rgb(207, 220, 187);
+  }
+  div.bio
+  {
+    text-align: left;
+    width: 155%;
+    margin-left: 0px;
+    align-items: end;
+  } 
