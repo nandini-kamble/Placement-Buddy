@@ -1,4 +1,4 @@
-# Placement Budd
+# Placement Buddy
 
 ## 🔧 Technologies Used
 - HTML/CSS
